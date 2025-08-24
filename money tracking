@@ -1,0 +1,564 @@
+{
+  "logtypes": [
+    {
+      "id": 1100,
+      "title": "Item market add (old)"
+    },
+    {
+      "id": 1103,
+      "title": "Item market buy (old)"
+    },
+    {
+      "id": 1104,
+      "title": "Item market sell (old)"
+    },
+    {
+      "id": 1112,
+      "title": "Item market buy"
+    },
+    {
+      "id": 1113,
+      "title": "Item market sell"
+    },
+    {
+      "id": 1220,
+      "title": "Bazaar buy (legacy)"
+    },
+    {
+      "id": 1221,
+      "title": "Bazaar sell (legacy)"
+    },
+    {
+      "id": 1225,
+      "title": "Bazaar buy"
+    },
+    {
+      "id": 1226,
+      "title": "Bazaar sell"
+    },
+    {
+      "id": 2380,
+      "title": "Item use piggy bank deposit"
+    },
+    {
+      "id": 2381,
+      "title": "Item use piggy bank withdraw"
+    },
+    {
+      "id": 2405,
+      "title": "Item use wallet"
+    },
+    {
+      "id": 2407,
+      "title": "Item use stash box"
+    },
+    {
+      "id": 4200,
+      "title": "Item shop buy"
+    },
+    {
+      "id": 4201,
+      "title": "Item abroad buy"
+    },
+    {
+      "id": 4210,
+      "title": "Item shop sell"
+    },
+    {
+      "id": 4220,
+      "title": "Item shop sell points"
+    },
+    {
+      "id": 4310,
+      "title": "Auction house item bid"
+    },
+    {
+      "id": 4311,
+      "title": "Auction house property bid"
+    },
+    {
+      "id": 4440,
+      "title": "Trade money outgoing"
+    },
+    {
+      "id": 4441,
+      "title": "Trade money incoming"
+    },
+    {
+      "id": 4442,
+      "title": "Trade money add"
+    },
+    {
+      "id": 4443,
+      "title": "Trade money remove"
+    },
+    {
+      "id": 4500,
+      "title": "Ammo buy"
+    },
+    {
+      "id": 4510,
+      "title": "Ammo sell"
+    },
+    {
+      "id": 4800,
+      "title": "Money send"
+    },
+    {
+      "id": 4810,
+      "title": "Money receive"
+    },
+    {
+      "id": 5010,
+      "title": "Points market buy"
+    },
+    {
+      "id": 5011,
+      "title": "Points market sell"
+    },
+    {
+      "id": 5320,
+      "title": "Gym purchase"
+    },
+    {
+      "id": 5370,
+      "title": "Bail"
+    },
+    {
+      "id": 5450,
+      "title": "Bank invest"
+    },
+    {
+      "id": 5451,
+      "title": "Bank withdraw"
+    },
+    {
+      "id": 5460,
+      "title": "Cashiers check withdraw"
+    },
+    {
+      "id": 5510,
+      "title": "Stock buy"
+    },
+    {
+      "id": 5511,
+      "title": "Stock sell"
+    },
+    {
+      "id": 5531,
+      "title": "Stock special money"
+    },
+    {
+      "id": 5715,
+      "title": "Crime fail money loss"
+    },
+    {
+      "id": 5720,
+      "title": "Crime success money gain"
+    },
+    {
+      "id": 5850,
+      "title": "Vault deposit"
+    },
+    {
+      "id": 5851,
+      "title": "Vault withdraw"
+    },
+    {
+      "id": 5900,
+      "title": "Property upgrade"
+    },
+    {
+      "id": 5920,
+      "title": "Property upkeep"
+    },
+    {
+      "id": 5927,
+      "title": "Property buy"
+    },
+    {
+      "id": 5928,
+      "title": "Property sell"
+    },
+    {
+      "id": 5936,
+      "title": "Property rental market rent renter"
+    },
+    {
+      "id": 5937,
+      "title": "Property rental market rent owner"
+    },
+    {
+      "id": 5942,
+      "title": "Property rental market extension accept renter"
+    },
+    {
+      "id": 5943,
+      "title": "Property rental market extension accept owner"
+    },
+    {
+      "id": 5960,
+      "title": "Education start"
+    },
+    {
+      "id": 5970,
+      "title": "Church donate"
+    },
+    {
+      "id": 6001,
+      "title": "Travel fee"
+    },
+    {
+      "id": 6005,
+      "title": "Rehab"
+    },
+    {
+      "id": 6010,
+      "title": "Offshore bank deposit"
+    },
+    {
+      "id": 6011,
+      "title": "Offshore bank withdraw"
+    },
+    {
+      "id": 6012,
+      "title": "Offshore bank interest"
+    },
+    {
+      "id": 6015,
+      "title": "Fortune teller"
+    },
+    {
+      "id": 6020,
+      "title": "Hunting"
+    },
+    {
+      "id": 6200,
+      "title": "Loan increase"
+    },
+    {
+      "id": 6201,
+      "title": "Loan decrease"
+    },
+    {
+      "id": 6204,
+      "title": "Loan fees pay"
+    },
+    {
+      "id": 6220,
+      "title": "Job pay"
+    },
+    {
+      "id": 6221,
+      "title": "Company employee pay"
+    },
+    {
+      "id": 6284,
+      "title": "Company deposit"
+    },
+    {
+      "id": 6285,
+      "title": "Company withdraw"
+    },
+    {
+      "id": 6300,
+      "title": "Company sell"
+    },
+    {
+      "id": 6403,
+      "title": "Job special spy"
+    },
+    {
+      "id": 6404,
+      "title": "Job special gain money"
+    },
+    {
+      "id": 6407,
+      "title": "Job special class action lawsuit"
+    },
+    {
+      "id": 6509,
+      "title": "Company special gain money"
+    },
+    {
+      "id": 6539,
+      "title": "Company special use intricate hack"
+    },
+    {
+      "id": 6549,
+      "title": "Company special use logistics report"
+    },
+    {
+      "id": 6700,
+      "title": "Bounty place"
+    },
+    {
+      "id": 6708,
+      "title": "Bounty refund"
+    },
+    {
+      "id": 6710,
+      "title": "Bounty claim"
+    },
+    {
+      "id": 6726,
+      "title": "Faction deposit money"
+    },
+    {
+      "id": 6736,
+      "title": "Faction give money receive"
+    },
+    {
+      "id": 6738,
+      "title": "Faction money balance change receive"
+    },
+    {
+      "id": 6793,
+      "title": "Faction payout money receive"
+    },
+    {
+      "id": 6795,
+      "title": "Faction payout money balance receive"
+    },
+    {
+      "id": 6800,
+      "title": "Faction create"
+    },
+    {
+      "id": 6811,
+      "title": "Faction payday receive"
+    },
+    {
+      "id": 7100,
+      "title": "Classified advert add"
+    },
+    {
+      "id": 7110,
+      "title": "Image advert add"
+    },
+    {
+      "id": 7125,
+      "title": "Image advert refund"
+    },
+    {
+      "id": 7140,
+      "title": "Personals add"
+    },
+    {
+      "id": 7815,
+      "title": "Missions complete"
+    },
+    {
+      "id": 8155,
+      "title": "Attack mug"
+    },
+    {
+      "id": 8156,
+      "title": "Attack mug receive"
+    },
+    {
+      "id": 8165,
+      "title": "Attack arrest"
+    },
+    {
+      "id": 8300,
+      "title": "Casino slots win"
+    },
+    {
+      "id": 8301,
+      "title": "Casino slots lose"
+    },
+    {
+      "id": 8305,
+      "title": "Casino roulette win"
+    },
+    {
+      "id": 8306,
+      "title": "Casino roulette lose"
+    },
+    {
+      "id": 8310,
+      "title": "Casino high-low start"
+    },
+    {
+      "id": 8314,
+      "title": "Casino high-low cash in full"
+    },
+    {
+      "id": 8315,
+      "title": "Casino high-low cash in half"
+    },
+    {
+      "id": 8320,
+      "title": "Casino keno win"
+    },
+    {
+      "id": 8321,
+      "title": "Casino keno lose"
+    },
+    {
+      "id": 8330,
+      "title": "Casino craps bet"
+    },
+    {
+      "id": 8331,
+      "title": "Casino craps win"
+    },
+    {
+      "id": 8340,
+      "title": "Casino lottery bet"
+    },
+    {
+      "id": 8350,
+      "title": "Casino blackjack start"
+    },
+    {
+      "id": 8352,
+      "title": "Casino blackjack double down"
+    },
+    {
+      "id": 8353,
+      "title": "Casino blackjack split"
+    },
+    {
+      "id": 8355,
+      "title": "Casino blackjack win"
+    },
+    {
+      "id": 8356,
+      "title": "Casino blackjack insurance lose"
+    },
+    {
+      "id": 8357,
+      "title": "Casino blackjack insurance win"
+    },
+    {
+      "id": 8358,
+      "title": "Casino blackjack push"
+    },
+    {
+      "id": 8359,
+      "title": "Casino blackjack surrender"
+    },
+    {
+      "id": 8370,
+      "title": "Casino spin the wheel start"
+    },
+    {
+      "id": 8374,
+      "title": "Casino spin the wheel win money"
+    },
+    {
+      "id": 8390,
+      "title": "Casino russian roulette start"
+    },
+    {
+      "id": 8391,
+      "title": "Casino russian roulette join"
+    },
+    {
+      "id": 8395,
+      "title": "Casino russian roulette win"
+    },
+    {
+      "id": 8399,
+      "title": "Casino russian roulette timeout refund"
+    },
+    {
+      "id": 8400,
+      "title": "Casino russian roulette leave"
+    },
+    {
+      "id": 8410,
+      "title": "Casino poker table join"
+    },
+    {
+      "id": 8411,
+      "title": "Casino poker table leave"
+    },
+    {
+      "id": 8412,
+      "title": "Casino poker tournament register"
+    },
+    {
+      "id": 8413,
+      "title": "Casino poker tournament unregister"
+    },
+    {
+      "id": 8444,
+      "title": "Casino poker tournament winnings"
+    },
+    {
+      "id": 8450,
+      "title": "Bookie bet"
+    },
+    {
+      "id": 8455,
+      "title": "Bookie withdraw"
+    },
+    {
+      "id": 8460,
+      "title": "Bookie bet (new)"
+    },
+    {
+      "id": 8465,
+      "title": "Bookie withdraw (new)"
+    },
+    {
+      "id": 8705,
+      "title": "Racing upgrade car"
+    },
+    {
+      "id": 8740,
+      "title": "Racing pay join fee"
+    },
+    {
+      "id": 8741,
+      "title": "Racing receive refund"
+    },
+    {
+      "id": 8940,
+      "title": "Christmas town money"
+    },
+    {
+      "id": 8960,
+      "title": "Easter egg hunt pickup blue egg (legacy)"
+    },
+    {
+      "id": 8985,
+      "title": "Item use black easter egg"
+    },
+    {
+      "id": 9015,
+      "title": "Crime success money gain (new)"
+    },
+    {
+      "id": 9030,
+      "title": "Crime success money paid"
+    },
+    {
+      "id": 9052,
+      "title": "Crime success bootlegging sell DVDs"
+    },
+    {
+      "id": 9053,
+      "title": "Crime success bootlegging online store money paid"
+    },
+    {
+      "id": 9056,
+      "title": "Crime success skimming sell card details"
+    },
+    {
+      "id": 9071,
+      "title": "Crime success scamming farm emails money paid"
+    },
+    {
+      "id": 9165,
+      "title": "Crime critical fail money loss"
+    },
+    {
+      "id": 15031,
+      "title": "Staff money remove receive"
+    }
+  ]
+}
